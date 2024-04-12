@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Poppins;
+
+}
+body {
+    background-color: white;
+}
+
+/* header nav */
+
+header nav {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: -40px;
+    align-items: center;
+    width: 90vw;
+    font-size: 16px;
+    padding: 12px 75px;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+header nav img#logo-pinterest {
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+}
+header nav img#logo-pinterest:hover {
+    background-color: rgb(214, 214, 214);
+    border-radius: 100px;
+}
+
+.first {
+    display: flex;
+}
+.first a {
+    text-decoration: none;
+    color: black;
+}
+.first li {
+    list-style: none;
+    padding: 0px 12px;
+}
+.first li #Inicio {
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    padding: 14px 19px;
+}
+.menu {
+    display: none;
+}
+.Explorar {
+    display: flex;
+    padding: 0px 10px 0px 0px;
+}
+.search {
+    flex-grow: 1;
+    height: 48px;
+    background-color: rgb(237, 237, 237);
+    border-radius: 30px;
+}
+.search input {
+    border: none;
+    background: transparent;
+    width: 80%;
+    height: 100%;
+    outline: none;
+    padding: 0 10px;
+    font-size: 16px;
+    margin: 0 10px;
+}
+.search:hover {
+    background-color: rgb(219, 219, 219);
+}
+.search:focus-within {
+    border: 4px solid rgb(102, 160, 246)
+}
+.bar {
+    display: flex;
+    align-items: center;
+    height: 45px;
+}
+.bar input {
+    border: none;
+    outline: none;
+    background-color: inherit;
+    padding: 0px 8px 0px 0px;
+    font-size: 16px;
+    flex-grow: 1;
+}
+#mag_glass {
+    padding: 8px;
+    color: rgb(94, 93, 93);
+    font-size: 16px;
+    font-weight: bold;
+}
+.bar input:hover + .material-symbols-outlined {
+    display: none;
+}
+header nav img#notificaciones-logo {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    padding: 4px;
+}
+header nav img#notificaciones-logo:hover {
+    background-color: rgb(214, 214, 214);
+    border-radius: 100px;
+}
+header nav img#mensaje-logo {
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+}
+header nav img#mensaje-logo:hover {
+    background-color: rgb(214, 214, 214);
+    border-radius: 100px;
+}
+header nav img#profile-icon {
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+}
+header nav img#profile-icon:hover {
+    background-color: rgb(214, 214, 214);
+    border-radius: 100px;
+}
+header nav img#more-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: -50px;
+    padding: 4px;
+}
+header nav img#more-icon:hover {
+    background-color: rgb(214, 214, 214);
+    border-radius: 100px;
+}
+
+main div {
+    display: flex;
+    align-items: flex-start;
+    columns: 3;
+}
+.content {
+    position: absolute;
+    margin-top: 80px;
+    align-items: center;
+}
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: ;
+}
+.images .card-image {
+    flex-basis: calc(25% - 10px);
+    margin-bottom: 20px;
+}
+.images .card-image img {
+    border-radius: 8%;
+    width: 100%;
+    height: auto;
+}
+.card-image:hover > :first-child {
+    filter: brightness(60%);
+}
+.card-image:hover * {
+    visibility: visible;
+    display: inline;
+}
+@media (max-width: 768px) 
+@media (min-width: 768px) and (max-width: 1024px) 
